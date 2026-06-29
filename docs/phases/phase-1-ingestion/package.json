@@ -1,0 +1,10 @@
+{
+  "name": "spotify-discovery-agent-phase1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Phase 1 ingestion — App Store and Play Store scrapers",
+  "dependencies": {
+    "app-store-scraper": "^0.18.0",
+    "google-play-scraper": "^10.0.0"
+  }
+}

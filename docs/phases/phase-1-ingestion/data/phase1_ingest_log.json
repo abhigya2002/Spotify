@@ -1,0 +1,12 @@
+{
+  "phase": 1,
+  "completed_at": "2026-06-28T18:35:37.882210+00:00",
+  "total_records": 3303,
+  "source_counts": {
+    "app_store": 499,
+    "play_store": 2649,
+    "reddit": 0,
+    "community_forum": 155
+  },
+  "output_path": "D:\\NL FINAL SUBMISSION\\docs\\phases\\phase-1-ingestion\\data\\raw_reviews.json"
+}
