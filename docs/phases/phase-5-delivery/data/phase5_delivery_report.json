@@ -1,0 +1,24 @@
+{
+  "completed_at": "2026-07-02T07:57:18.684884+00:00",
+  "status": "success",
+  "mcp_server": "https://saksham-mcp-server-production-4691.up.railway.app",
+  "available_tools": [
+    {
+      "name": "append_to_doc",
+      "description": "Append content to Google Doc"
+    },
+    {
+      "name": "create_email_draft",
+      "description": "Create Gmail draft"
+    }
+  ],
+  "doc_title": "Spotify Discovery Pulse — 24–28 June 2026",
+  "doc_id": "1wqCQDIm2ybBmR4HdVT24-HnUSAWzVUxeFrMypGroTsM",
+  "google_doc_url": "https://docs.google.com/document/d/1wqCQDIm2ybBmR4HdVT24-HnUSAWzVUxeFrMypGroTsM/edit",
+  "gmail_draft_id": "r7023288386695149319",
+  "recipient_email": "kabhigya38@gmail.com",
+  "doc_create_latency_ms": null,
+  "doc_write_latency_ms": 1666,
+  "gmail_draft_latency_ms": 1290,
+  "pulse_chars_written": 1315
+}

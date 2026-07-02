@@ -1,0 +1,13 @@
+{
+  "total_in": 3303,
+  "dropped_empty_text": 0,
+  "dropped_outside_date_window": 0,
+  "dropped_duplicate": 22,
+  "dropped_min_words": 1415,
+  "dropped_non_english": 96,
+  "dropped_not_discovery_relevant": 1360,
+  "passed": 410,
+  "completed_at": "2026-06-29T20:28:18.160675+00:00",
+  "target_min_records": 300,
+  "target_met": true
+}

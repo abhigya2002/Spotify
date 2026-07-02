@@ -1,0 +1,207 @@
+{
+  "completed_at": "2026-07-01T12:19:31.325606+00:00",
+  "total_classified": 410,
+  "discovery_relevant_count": 300,
+  "themes": {
+    "Recommendation Quality": {
+      "count": 43,
+      "pct": 10.5,
+      "avg_sentiment": 0.07,
+      "avg_confidence": 0.849,
+      "sentiment_breakdown": {
+        "positive": 22,
+        "neutral": 2,
+        "negative": 19
+      },
+      "top_quotes": [
+        {
+          "id": "6759508a19417315feabf8cbf5547864e564fd6092c7963a9845ec450ab13e4c",
+          "source": "app_store",
+          "rating": 5,
+          "confidence": 0.9,
+          "sentiment": "positive",
+          "key_phrase": "wouldnt miss a beat",
+          "text": "I go nowhere else for my music! The playlist Spotify builds for you? Wouldnt miss a beat!!!"
+        },
+        {
+          "id": "9f16137dadeaed403723f6112678b9f9d59f8e339eafd90db354ba4b9624cc1e",
+          "source": "app_store",
+          "rating": 5,
+          "confidence": 0.9,
+          "sentiment": "positive",
+          "key_phrase": "good recommendations",
+          "text": "Spotify is my favorite app and probably the thing I use the most every day. I listen to music when Im at school, at home, working out, or just relaxing. It has almost every song I want to hear, and its really easy to make playlists and discover new music. The recommendations are always good, and I l"
+        },
+        {
+          "id": "ed05387f3367bb1c0355216c9feea329f920c4dae17b5b7fad8f755a880aad77",
+          "source": "app_store",
+          "rating": 3,
+          "confidence": 0.9,
+          "sentiment": "negative",
+          "key_phrase": "random songs",
+          "text": "What happened to Spotify? Why is a specific playlist include random songs not relevant to the category? Im bumpin to 2000s hip hop mix then a random non-hip hop song plays in the same playlist. Just ruins the vibe Im expecting. Why bump up subscription prices when youre not making the experience bet"
+        }
+      ]
+    },
+    "Discovery Friction": {
+      "count": 150,
+      "pct": 36.6,
+      "avg_sentiment": -0.767,
+      "avg_confidence": 0.733,
+      "sentiment_breakdown": {
+        "positive": 8,
+        "neutral": 19,
+        "negative": 123
+      },
+      "top_quotes": [
+        {
+          "id": "658f35c07bb02066275d8dffdd6dc340068283e806487ebd5df9514089d96533",
+          "source": "play_store",
+          "rating": 1,
+          "confidence": 0.95,
+          "sentiment": "negative",
+          "key_phrase": "shuffle issue",
+          "text": "Please urgently fix the shuffle. Many of us have tried everything so that a 30 hour long Playlist doesn't play the same 20 songs yet the app still does so. It is very annoying and frustrating wanting to play ALL of your songs and only hearing the same 5 to the point where you can't stand listening t"
+        },
+        {
+          "id": "8214a0042417a705f290b7817c615022b76ad84fb5ddc718c4e0ef70a53f2b72",
+          "source": "community_forum",
+          "rating": null,
+          "confidence": 0.95,
+          "sentiment": "negative",
+          "key_phrase": "echo chamber",
+          "text": "For some reason I'm unable to vote on this, but cannot agree more. The radio function is completely useless! It used to be a great tool to discover new music in similar genres but is now literally an echo chamber of the same 50 songs. Some of my favorite music is getting old fast and it sucks! FIX T"
+        },
+        {
+          "id": "faf7dff0102efd05d629a74f1d7868c9a0ee3134340bcf736dc1dbdb90619da4",
+          "source": "app_store",
+          "rating": 2,
+          "confidence": 0.9,
+          "sentiment": "negative",
+          "key_phrase": "shuffle issue",
+          "text": "Please for the love of god fix your SHUFFLE. It is absolutely terrible. Im tired of hearing the same songs over and over and over with shuffle on. Edit saw they responded. Unfortunately Ive had the premium subscription for years.. I really hope yall can fix the shuffle issue because the app would be"
+        }
+      ]
+    },
+    "Algorithm Transparency": {
+      "count": 52,
+      "pct": 12.7,
+      "avg_sentiment": -0.769,
+      "avg_confidence": 0.769,
+      "sentiment_breakdown": {
+        "positive": 1,
+        "neutral": 10,
+        "negative": 41
+      },
+      "top_quotes": [
+        {
+          "id": "946c54fc3c8414427bd222bee76adf62922ae327cc635276b06728c23dd84abe",
+          "source": "app_store",
+          "rating": 1,
+          "confidence": 0.9,
+          "sentiment": "negative",
+          "key_phrase": "random songs added",
+          "text": "Gng stop adding random songs to my playlist also let me play the songs I want bro idc about the ads im not paying for premium and make the songs in a list order instead of showing me the names of them i promise you i already know the names"
+        },
+        {
+          "id": "781f13ef3a1be15594978132f9ad148f36b3641078af73efd758e6a023f12e14",
+          "source": "app_store",
+          "rating": 1,
+          "confidence": 0.9,
+          "sentiment": "negative",
+          "key_phrase": "ai generated music",
+          "text": "Spotify is now no longer a service to find real artists. every week they flood your front page and playlist recommendations with their ai generated slop so they can pay artists even less than they already do. Absolutely disgusting."
+        },
+        {
+          "id": "61cbb360ad4f6a071820a1629529dcf86b3127a94554935fb69a8f96d439b700",
+          "source": "app_store",
+          "rating": 1,
+          "confidence": 0.9,
+          "sentiment": "negative",
+          "key_phrase": "tell me what to listen",
+          "text": "Playlisting is pissing me off. If i want someone else to tell me what to listen to, ill listen to radio. If i want to listen to 1 artist the whole day, this is not your business. Im paying premium to be able to listen to artist that i like. X50 streams of a loyal fan should not be counted lower as c"
+        }
+      ]
+    },
+    "Playlist & Curation": {
+      "count": 116,
+      "pct": 28.3,
+      "avg_sentiment": 0.052,
+      "avg_confidence": 0.73,
+      "sentiment_breakdown": {
+        "positive": 49,
+        "neutral": 24,
+        "negative": 43
+      },
+      "top_quotes": [
+        {
+          "id": "e71f68263e911facd41aad63ad0321a3742079fc278127905ad8c8a97147b608",
+          "source": "app_store",
+          "rating": 5,
+          "confidence": 0.9,
+          "sentiment": "positive",
+          "key_phrase": "widest variety of music",
+          "text": "Has the widest variety of music. Premium comes free for 3 months every 5 months or so. That's an amazing bonus."
+        },
+        {
+          "id": "dd74940478e8799dac6aa909c50fda274ab28e9f352b5383935668baaaa7a017",
+          "source": "app_store",
+          "rating": 5,
+          "confidence": 0.9,
+          "sentiment": "positive",
+          "key_phrase": "music variety",
+          "text": "I have had Spotify since 2013 when I started high school, it has grown and evolved into what I use everyday during work, car rides, parties or a lazy day off. Whether I want music, or books or podcasts, Spotify has it. If they dont they usually add it later on. I recommend Spotify even if you dont w"
+        },
+        {
+          "id": "6dcc5694bdb066baeeedf1eac4be655f027998cfc3786bc071412b54557159ee",
+          "source": "app_store",
+          "rating": 5,
+          "confidence": 0.9,
+          "sentiment": "positive",
+          "key_phrase": "all types of music",
+          "text": "Spotify is a great platform to listen to all types of music , pop, rock , classical, jazz , all different kinds of music! the disclaimer is that u have to have premium for 0 adds but its ok!! I use my moms Spotify anyways, I can listen to my all time favorite artist AND small artists new artist have"
+        }
+      ]
+    },
+    "Listening Context": {
+      "count": 49,
+      "pct": 12.0,
+      "avg_sentiment": 0.49,
+      "avg_confidence": 0.727,
+      "sentiment_breakdown": {
+        "positive": 36,
+        "neutral": 1,
+        "negative": 12
+      },
+      "top_quotes": [
+        {
+          "id": "7e02e2b882581dca46098b17e4143984e114e3a1be5aa80fb9c81af78bee6b66",
+          "source": "app_store",
+          "rating": 5,
+          "confidence": 0.9,
+          "sentiment": "positive",
+          "key_phrase": "emotional support",
+          "text": "I havent written one of these reviews in so long. When I last wrote a review it was about how excited I was about a skip ad feature, I got premium and it changes a whole perspective in Spotify for sure, for free its also free and adaptable. The music quality is so good I almost cry to every song. Th"
+        },
+        {
+          "id": "b8325479573cedd7746b225188fa22899f926eb8eb9b8ba95eb6afed7dc72ac0",
+          "source": "play_store",
+          "rating": 5,
+          "confidence": 0.9,
+          "sentiment": "positive",
+          "key_phrase": "calming and helpful",
+          "text": "I've been using spotify as my life since school started its just so calming and helpful when I listen to music while studying.. highly recommend"
+        },
+        {
+          "id": "abc30a7d29aa3e4357c8613f0cd2e9d201aa1c37b4586126ab2efb041014cb4c",
+          "source": "play_store",
+          "rating": 5,
+          "confidence": 0.9,
+          "sentiment": "positive",
+          "key_phrase": "keeps according to the mood",
+          "text": "it's keeps according to the mood that you have"
+        }
+      ]
+    }
+  }
+}
