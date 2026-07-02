@@ -1,0 +1,57 @@
+name: Spotify Weekly Discovery Pipeline
+
+on:
+  schedule:
+    - cron: '30 3 * * 0'  # Every Sunday 3:30 AM UTC (9:00 AM IST)
+  workflow_dispatch:        # Allow manual trigger from GitHub UI
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Phase 1 - Ingestion
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          MCP_SERVER_URL: ${{ secrets.MCP_SERVER_URL }}
+          GOOGLE_DOC_ID: ${{ secrets.GOOGLE_DOC_ID }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+        run: python docs/phases/phase-1-ingestion/main.py
+
+      - name: Run Phase 2 - Cleaning
+        run: python docs/phases/phase-2-cleaning/main.py
+
+      - name: Run Phase 3 - Classification
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python docs/phases/phase-3-classification/main.py
+
+      - name: Run Phase 4 - Delivery
+        env:
+          MCP_SERVER_URL: ${{ secrets.MCP_SERVER_URL }}
+          GOOGLE_DOC_ID: ${{ secrets.GOOGLE_DOC_ID }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+        run: python docs/phases/phase-4-reporting/main.py --deliver-only
+
+      - name: Upload pipeline artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-output-${{ github.run_id }}
+          path: |
+            docs/phases/phase-1-ingestion/data/
+            docs/phases/phase-2-cleaning/data/
+            docs/phases/phase-3-classification/data/
+            docs/phases/phase-4-reporting/data/
+          retention-days: 30
